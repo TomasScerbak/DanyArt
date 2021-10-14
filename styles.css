@@ -152,6 +152,7 @@ img {
   overflow: hidden;
   background-color: #fff;
   border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .image--card:hover {
   transform: scale(1.05);
@@ -173,8 +174,9 @@ img {
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  border: 2px solid var(--color-primary-blue);
+  border: 2px solid var(--color-paragraph);
   border-radius: 30px;
+  outline: 0;
   background: transparent;
   padding: 2rem 3rem;
   width: 20rem;
@@ -182,7 +184,7 @@ img {
   cursor: pointer;
 }
 .btn:hover {
-  background: var(--color-primary-blue);
+  background: black;
   color: #fff;
 }
 .card__button {
