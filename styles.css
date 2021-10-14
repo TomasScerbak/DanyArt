@@ -173,9 +173,8 @@ img {
   font-size: 1.5rem;
   font-weight: bold;
   text-transform: uppercase;
-  border: 2px solid var(--color-paragraph);
+  border: 2px solid var(--color-primary-blue);
   border-radius: 30px;
-  outline: 0;
   background: transparent;
   padding: 2rem 3rem;
   width: 20rem;
@@ -183,7 +182,7 @@ img {
   cursor: pointer;
 }
 .btn:hover {
-  background: black;
+  background: var(--color-primary-blue);
   color: #fff;
 }
 .card__button {
