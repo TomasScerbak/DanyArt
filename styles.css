@@ -8,7 +8,6 @@ body {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
   background-color: var(--color-main-background);
-  height: 100vh;
   overflow-x: hidden;
 }
 *,
@@ -116,7 +115,6 @@ nav {
 /* Grid */
 .container {
   padding: 5rem;
-  height: 100vh;
   width: 100vw;
   justify-content: center;
   align-content: center;
@@ -136,7 +134,7 @@ img {
   object-position: center;
   transition: transform 0.5s;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .container {
     padding: 15rem;
   }
@@ -153,7 +151,7 @@ img {
   text-align: center;
   overflow: hidden;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 .image--card:hover {
   transform: scale(1.05);
@@ -191,4 +189,32 @@ img {
 .card__button {
   display: flex;
   justify-content: center;
+}
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 122, 243);
+  background: linear-gradient(
+    21deg,
+    rgba(0, 122, 243, 1) 15%,
+    rgba(154, 202, 250, 1) 87%,
+    rgba(142, 234, 254, 1) 96%
+  );
+  height: 30vh;
+}
+.media-icons {
+  padding-bottom: 2rem;
+}
+.copyright {
+  font-size: 2rem;
+  opacity: 65%;
+}
+.fa-facebook,
+.fa-envelope,
+.fa-instagram {
+  color: #f3f3f3;
+  padding: 2rem;
 }
