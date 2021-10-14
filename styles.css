@@ -170,3 +170,25 @@ img {
   font-weight: lighter;
   margin-bottom: 0.5rem;
 }
+/* Buttons */
+.btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 2px solid var(--color-paragraph);
+  border-radius: 30px;
+  outline: 0;
+  background: transparent;
+  padding: 2rem 3rem;
+  width: 20rem;
+  margin: 1.5rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background: black;
+  color: #fff;
+}
+.card__button {
+  display: flex;
+  justify-content: center;
+}
