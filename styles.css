@@ -217,4 +217,13 @@ img {
 .fa-instagram {
   color: #f3f3f3;
   padding: 2rem;
+  transition: transform 0.5s;
+}
+.fa-facebook:hover,
+.fa-envelope:hover,
+.fa-instagram:hover {
+  transform: scale(1.2);
+}
+.webdev {
+  font-size: 1.2rem;
 }
