@@ -215,14 +215,16 @@ img {
 }
 .fa-facebook,
 .fa-envelope,
-.fa-instagram {
+.fa-instagram,
+.fa-google {
   color: #f3f3f3;
   padding: 2rem;
   transition: transform 0.5s;
 }
 .fa-facebook:hover,
 .fa-envelope:hover,
-.fa-instagram:hover {
+.fa-instagram:hover,
+.fa-google:hover {
   transform: scale(1.2);
 }
 .webdev {
